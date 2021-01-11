@@ -20,7 +20,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class MongodbController {
 
-    private static Logger log = LoggerFactory.getLogger(MongodbController.class);
+    private static final Logger log = LoggerFactory.getLogger(MongodbController.class);
 
     @Autowired
     private UserRepository userRepository;
